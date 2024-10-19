@@ -1,0 +1,26 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.ts",
+    "worker":"nodemon ./src/worker.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "bullmq": "^5.21.1",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
